@@ -10,8 +10,8 @@ const Resume = () => {
 
   const handleDownload = () => {
   const link = document.createElement('a');
-  link.href = '/Fayaz.pdf '; // Path to your PDF in the public folder
-  link.download = '/Fayaz.pdf';
+  link.href = '/SHAIK_FAYAZ_RESUME.pdf '; // Path to your PDF in the public folder
+  link.download = '/SHAIK_FAYAZ_RESUME.pdf';
   link.click();
 };
 
