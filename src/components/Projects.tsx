@@ -9,12 +9,18 @@ const projects = [
     id: 1,
     title: "E-Commerce Platform",
     description: "Full-stack e-commerce solution with Django backend and React frontend, featuring real-time inventory management and secure payment processing.",
+<<<<<<< HEAD
     tech: ["Django", "React", "Mysql", ],
     github: "https://github.com/shaikfayaz14-fs/E-commerce",
+=======
+    tech: ["Django", "React", "PostgreSQL", "Stripe", "Redis"],
+    github: "#",
+>>>>>>> d709c0f3e883c575ec1a937ca29b0d5469362396
     demo: "#",
   },
   {
     id: 2,
+<<<<<<< HEAD
     title: "BLOG-APP",
     description: "A Blogging App is a web application that allows users to create, edit, publish, and manage blog posts through an intuitive interface. It features secure authentication, content management, image uploads, and a responsive design for seamless reading and writing experiences.",
     tech: ["FastAPI", "React",  "MongoDB"],
@@ -22,6 +28,30 @@ const projects = [
     demo: "#",
   },
  
+=======
+    title: "AI Task Manager",
+    description: "Intelligent task management system with AI-powered prioritization and automated scheduling using machine learning algorithms.",
+    tech: ["Python", "FastAPI", "React", "TensorFlow", "MongoDB"],
+    github: "#",
+    demo: "#",
+  },
+  {
+    id: 3,
+    title: "Real-Time Analytics Dashboard",
+    description: "Interactive dashboard for real-time data visualization and analytics with WebSocket integration for live updates.",
+    tech: ["Django Channels", "React", "D3.js", "PostgreSQL", "Docker"],
+    github: "#",
+    demo: "#",
+  },
+  {
+    id: 4,
+    title: "Social Media API",
+    description: "RESTful API with comprehensive authentication, user management, and content delivery features for social networking applications.",
+    tech: ["Django REST", "PostgreSQL", "Redis", "Celery", "AWS"],
+    github: "#",
+    demo: "#",
+  },
+>>>>>>> d709c0f3e883c575ec1a937ca29b0d5469362396
 ];
 
 const Projects = () => {
