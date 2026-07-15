@@ -9,16 +9,11 @@ const Resume = () => {
   const isInView = useInView(ref, { once: true, amount: 0.5 });
 
   const handleDownload = () => {
-  const link = document.createElement('a');
-<<<<<<< HEAD
-  link.href = '/SHAIK_FAYAZ_RESUME.pdf '; // Path to your PDF in the public folder
-  link.download = '/SHAIK_FAYAZ_RESUME.pdf';
-=======
-  link.href = '/Fayaz.pdf '; // Path to your PDF in the public folder
-  link.download = '/Fayaz.pdf';
->>>>>>> d709c0f3e883c575ec1a937ca29b0d5469362396
-  link.click();
-};
+    const link = document.createElement("a");
+    link.href = "/SHAIK_FAYAZ_RESUME.pdf";
+    link.download = "SHAIK_FAYAZ RESUME.pdf";
+    link.click();
+  };
 
 
   return (
